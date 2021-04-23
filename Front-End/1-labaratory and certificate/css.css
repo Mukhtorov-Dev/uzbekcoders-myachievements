@@ -1,0 +1,30 @@
+.my-card {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 0 8px grey;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+#interesting-fact {
+  font-style: italic;
+}
+
+.animal-info {
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+span {
+  font-weight: bold;
+}

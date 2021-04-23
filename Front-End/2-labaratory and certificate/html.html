@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pixel Art Maker!</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Uzbek Version</h1>
+        <h2>Panjara o'lchami tanlang</h2>
+        <form id="sizePicker">
+            Panjara balandligi:
+            <input type="number" name="height" id="inputHeight" min="1" value="1">
+            Panjara Eni:
+            <input type="number" name="width" id="inputWidth" min="1" value="1">
+            <input type="submit" onclick="return makeGrid()">
+        </form>
+
+        <h2>Rangni tanlang</h2>
+        <input type="color" id="colorPicker">
+
+        <h2>Canvas HTML5</h2>
+        <table id="pixelCanvas"></table>
+
+        <script src="designs.js"></script>
+    </body>
+</html>
